@@ -47,10 +47,10 @@ body{
     font-weight: normal;
 }
 .container{
-    width: 418px;
+    width: 420px;
     display: inline-block;
     margin-bottom: 135px;
-    margin-right: 60px;
+    margin-right: 56px;
 }
 .container:nth-child(even) {
     margin-right: 0px;
