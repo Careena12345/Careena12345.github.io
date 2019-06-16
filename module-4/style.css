@@ -90,7 +90,7 @@ img{
     height: auto;
 }
 .product-img{
-    background-image: url(./images/back.png);
+    background-image: url(./back.png);
     text-align: center;
     width: 255px;
     height: 280px;
