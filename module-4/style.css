@@ -8,8 +8,12 @@ body{
     margin: 0 auto;
     text-transform: uppercase;
 }
+.wrapper{
+    overflow: auto;
+}
 a{
     text-decoration: none;
+    float: left;
 }
 .clearfix::after {
     display: table;
@@ -22,18 +26,18 @@ a{
     font-family: "Roboto", "Arial", sans-serif;
     font-weight: 300;
     color: #626262;
-    float: left;
+    margin-top: 38px;
 }
 .logo::first-letter{
     color: #1abc9c;
     font-weight: 900;
 }
 .header{
- margin-top: 42px;
- margin-bottom: 112px;
+    margin-bottom: 112px;
 }
 .menu{
-   float: right;
+    margin-top: 42px;
+    float: right;
     list-style: none;
     line-height: 32px;
 }
@@ -91,18 +95,15 @@ img{
 }
 .product-img{
     background-color: #e9f0fd;
-    text-align: center;
-    width: 255px;
-    height: auto;
 }
 .product-info{
     width: 255px;
     font-size: 18px;
 }
 .product-info h3{
+    background-color: #323232;
     width: 200px;
     float: left;
-    background-color: #323232;
     text-align: center;
     line-height: 32px;
     color: #ffffff;
@@ -116,7 +117,8 @@ img{
     font-weight: 900;
     text-align: center;
     line-height: 32px;
-    background-color: #8c8c8c;
+    background-color: #323232;
+    opacity: 0.44;
     float: left;
 }
 .product-block:hover .product-info h3{
