@@ -12,9 +12,6 @@ body{
     content: "";
     clear: both;
 }
-.wrapper{
-    overflow: auto;
-}
 a{
     text-decoration: none;
     text-transform: uppercase;
