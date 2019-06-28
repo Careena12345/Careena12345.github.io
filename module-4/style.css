@@ -3,7 +3,7 @@
     padding: 0;
     box-sizing: border-box;
 }
-body{
+.wrapper{
     width: 1110px;
     margin: 0 auto;
 }
