@@ -141,16 +141,13 @@ header {
     margin-bottom: 18px;
 }
 
-.contact-message {
-    display: flex;
-    flex-flow: column wrap;
-    justify-content: space-between;
-    height: 212px;
-    margin: 77px auto 30px;
+.form {
+    margin-top: 78px;
 }
 
 .exact-message {
     height: 212px;
+    padding: 18px;
 }
 
 .contact-input,
@@ -161,7 +158,9 @@ header {
 }
 
 .contact-input {
-    height: 50px;
+    height: 51px;
+    display: block;
+    padding: 18px;
 }
 
 .message-submit {
@@ -169,6 +168,7 @@ header {
     margin: 0 auto;
     width: 240px;
     height: 66px;
+    font-family: "MontserratBold";
     font-size: 18px;
     color: #ffffff;
     background-color: #fed136;
@@ -176,6 +176,7 @@ header {
     border-radius: 3px;
     text-transform: uppercase;
     cursor: pointer;
+    margin-top: 30px;
 }
 
 .contact-input::placeholder,
@@ -183,12 +184,7 @@ header {
     text-transform: uppercase;
     color: #bbbbbb;
     font-size: 14px;
-    padding-left: 18px;
     font-family: "MontserratBold";
-}
-
-.exact-message::placeholder {
-    padding-top: 18px;
 }
 
 .contact-input:valid,
@@ -200,4 +196,19 @@ header {
 .exact-message:invalid {
     outline-color: #f60c0c;
     background-color: #ffd;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: block;
+}
+
+.contact-message {
+    float: left;
+    margin-right: 30px;
+}
+
+.contact-input:not(:last-child) {
+    margin-bottom: 30px;
 }
