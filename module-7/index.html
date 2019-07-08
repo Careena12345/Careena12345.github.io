@@ -13,7 +13,7 @@
     <div class="wrapper">
       <header>
         <h1><a href="#" class="logo">Golden</a></h1>
-        <div class="menu">
+        <nav class="menu">
           <ul class="menu-list">
             <li><a href="#" class="menu-item">home</a></li>
             <li><a href="#" class="menu-item">services</a></li>
@@ -21,7 +21,7 @@
             <li><a href="#" class="menu-item">about</a></li>
             <li><a href="#" class="menu-item">contact</a></li>
           </ul>
-        </div>
+        </nav>
       </header>
       <section>
         <h2 class="title-services">services</h2>
@@ -62,12 +62,12 @@
         </div>
       </section>
     </div>
-    <section>
-      <div class="contact">
+    <section class="contact">
+      <div class="contact-section wrapper">
         <h2 class="contact-title">contact us</h2>
         <p class="title-paragraph">Proin iaculis purus consequat sem cure.</p>
-        <form action="#" class="wrapper">
-          <div class="contact-message">
+        <form action="#">
+          <div class="contact-message clearfix">
             <input
               class="contact-input"
               type="text"
@@ -88,6 +88,8 @@
               placeholder="subjet"
               name="subject"
             />
+          </div>
+          <div class="textarea form">
             <textarea
               class="exact-message"
               name="message"
