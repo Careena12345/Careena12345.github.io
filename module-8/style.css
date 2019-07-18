@@ -107,8 +107,8 @@ header{
     color:#666666;
     margin-top: 1.5rem;
 }
-.bradley{
-    
+.img img{
+    border-radius: 50%;
 }
 .img::before {
     position: absolute;
