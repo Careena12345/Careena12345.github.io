@@ -39,7 +39,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
             justify-content: space-between;
     -webkit-box-align: center;
         -ms-flex-align: center;
-            align-items: center;
+            align-items: baseline;
 }
 .logo_link{
     text-decoration: none;
