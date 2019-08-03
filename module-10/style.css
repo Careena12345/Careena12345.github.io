@@ -399,7 +399,9 @@ only screen and (min-device-pixel-ratio: 1.5) {
     color: var(--third-font-color);
     font-size: 1.5rem;
 }
-
+.team_card-item_person{
+    display: block;
+}
 .footer {
     width: 120rem;
     margin: 0 auto;
