@@ -17,6 +17,7 @@
     background-image: -o-linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%), url(./img/bg.png);
     background-image: linear-gradient(rgba(243, 129, 129, 0.9) 0%, rgba(252, 227, 138, 0.9) 100%), url(./img/bg.png);
     background-position: center;
+    background-size: cover;
     text-align: center;
 }
 
@@ -248,48 +249,16 @@ only screen and (min-device-pixel-ratio: 1.5) {
     display: flex;
     text-align: left;
 }
-
-.features_list-item::before {
-    content: "";
-    display: block;
-    height: 3.2rem;
-    margin-right: 6rem;
-}
-
 .features_list-item:nth-child(n+3) {
     margin-bottom: 10.4rem;
 }
-
-.features_list-alarm {
-    background-image: url(./img/features/alarm.png);
-    background-repeat: no-repeat;
+.features_list-svg{
+    width: 3.2rem;
+    height: 3.2rem;
 }
-
-.features_list-graph {
-    background-image: url(./img/features/graph.png);
-    background-repeat: no-repeat;
+.features_list-sprite{
+    margin-right: 2.8rem;
 }
-
-.features_list-computer {
-    background-image: url(./img/features/computer.png);
-    background-repeat: no-repeat;
-}
-
-.features_list-book {
-    background-image: url(./img/features/book.png);
-    background-repeat: no-repeat;
-}
-
-.features_list-home {
-    background-image: url(./img/features/home.png);
-    background-repeat: no-repeat;
-}
-
-.features_list-image {
-    background-image: url(./img/features/image.png);
-    background-repeat: no-repeat;
-}
-
 .features_content-title {
     margin-bottom: 2rem;
     font-family: "MonserratRegular";
