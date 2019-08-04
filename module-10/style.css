@@ -284,27 +284,36 @@ only screen and (min-device-pixel-ratio: 1.5) {
     justify-content: space-between;
 }
 
-.icons_list-item,
-.svg {
+.icons_list-item {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+            align-items: center;
+    background-position: center;
     list-style: none;
-    width: 5.5rem;
-    height: 5.5rem;
-    fill: #f38181;
+    width: 5.6rem;
+    height: 5.6rem;
     background: #fce38a;
 }
-
+.svg{
+    fill: #f38181;
+    width: 2.6rem;
+    height: 2.5rem;
+}
 .icons_list {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
 }
-
-.icons_list-item svg {
-    padding: 15px 15px;
-}
-
-.icons_list-item:hover svg {
+.icons_list-item:hover .svg{
     fill: #ffffff;
+}
+.icons_list-item:hover {
     background-color: #f38181;
 }
 
