@@ -79,7 +79,7 @@ only screen and (min-device-pixel-ratio: 1.5) {
     position: relative;
     text-decoration: none;
     color: var(--main-font-color);
-    font-family: "MonseratRegular";
+    font-family: "MonserratRegular";
     letter-spacing: 0.1rem;
 }
 
