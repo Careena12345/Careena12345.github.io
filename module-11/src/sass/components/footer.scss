@@ -1,0 +1,23 @@
+.footer {
+    width: 1200px;
+    margin: 0 auto;
+    @include center-flex('ver');
+    justify-content: space-between;
+    padding: 10px 0;
+    border-top: 1px solid #e5e5e5;
+}
+
+.footer_paragraph {
+    font-family: $fourth-font-stack;
+    font-size: $main-font-size;
+    color: $per-font-color;
+    margin-top: 25px;
+}
+
+.footer_paragraph-link {
+    color: #f38181;
+}
+
+.footer_form {
+    @include center-flex('all');
+}

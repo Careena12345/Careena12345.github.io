@@ -1,0 +1,22 @@
+.icons_list-item {
+    @include center-flex('all');
+    background-position: center;
+    list-style: none;
+    width: 56px;
+    height: 56px;
+    background: #fce38a;
+}
+.icons_list {
+    display: flex;
+}
+.icons_list-item:hover .svg{
+    fill: #ffffff;
+}
+.icons_list-item:hover {
+    background-color: #f38181;
+}
+.icons_list {
+    position: absolute;
+    top: 207px;
+    right: 78px;
+}

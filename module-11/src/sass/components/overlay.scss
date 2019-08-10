@@ -1,0 +1,10 @@
+.overlay_icons {
+    position: absolute;
+    background-image: linear-gradient(rgba(252, 227, 138, 0.9) 0%, rgba(243, 129, 129, 0.9) 100%);
+    top: 0px;
+    left: 0px;
+    bottom: 0px;
+    right: 0px;
+    opacity: 0;
+    transition: opacity 0.2s linear
+}

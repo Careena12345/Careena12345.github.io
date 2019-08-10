@@ -1,0 +1,38 @@
+.features_list {
+    @include center-flex('all');
+    flex-wrap: wrap;
+    height: 100%;
+}
+
+.features_list-item {
+    list-style: none;
+    width: 378px;
+    display: flex;
+    text-align: left;
+
+    &:nth-child(-n+3) {
+        margin-bottom: 104px;
+    }
+}
+.features_list-svg{
+    width: 32px;
+    height: 32px;
+}
+.features_list-sprite{
+    margin-right: 28px;
+}
+.features_content-title {
+    margin: 0;
+    margin-bottom: 20px;
+    font-family: $fourth-font-stack;
+    color: $per-font-color;
+    font-size: $main-font-size;
+    text-transform: uppercase;
+}
+
+.features_content-paragraph {
+    font-family: $main-font-stack;
+    color: $third-font-color;
+    font-size: $main-font-size;
+    line-height: 24px;
+}

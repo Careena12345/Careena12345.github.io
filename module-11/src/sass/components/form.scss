@@ -1,0 +1,22 @@
+.form_text {
+    width: 230px;
+    border: 1px solid #e5e5e5;
+    border-right: none;
+    padding: 10px;
+    &::placeholder{
+        font-family: "RobotoItalic";
+        color: #cccccc;
+        font-size: $main-font-size;
+    }
+}
+.form_button {
+    text-align: center;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-size: $main-font-size;
+    color: #fff;
+    background-color: #95e1d3;
+    font-family: $per-font-stack;
+    text-transform: uppercase;
+}

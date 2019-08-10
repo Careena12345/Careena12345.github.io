@@ -1,0 +1,40 @@
+.team-card {
+    margin-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+.team-card_item-img {
+    position: relative;
+    margin-bottom: 28px;
+    background-color: #95e1d3;
+
+    &:hover .team-card_item-overlay {
+        transform: translate(-2%, -2%);
+    }
+
+    &:hover .overlay_icons {
+        opacity: 1;
+    }
+}
+
+.team-card_title {
+    margin-top: 30px;
+    margin-bottom: 16px;
+    font-family: $fourth-font-stack;
+    color: $per-font-color;
+    font-size: $main-font-size;
+    text-transform: uppercase;
+}
+
+.team-card_paragraph {
+    font-family: "RobotoItalic";
+    color: $third-font-color;
+    font-size: $main-font-size;
+}
+.team_card-item_person{
+    display: block;
+}
+.team-card_item-overlay {
+    position: relative;
+    transition: transform 0.2s linear;
+}
